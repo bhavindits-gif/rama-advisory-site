@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Why Choose Us | RAMA ADVISORY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; color: #1a1a1a; }
+    .brand-logo { font-family: 'Montserrat', sans-serif; letter-spacing: .14em; }
+    .brand-gradient {
+      background: linear-gradient(90deg, #ad9476 0%, #6dd5ed 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-[#f8fafc]">
+  <header class="bg-white shadow sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-5 flex items-center justify-between">
+      <a href="index.html" class="brand-logo text-2xl md:text-3xl font-extrabold brand-gradient">RAMA ADVISORY</a>
+      <ul class="flex space-x-6 text-base md:text-lg font-medium">
+        <li><a href="about.html" class="hover:text-[#6dd5ed]">About</a></li>
+        <li><a href="services.html" class="hover:text-[#6dd5ed]">Services</a></li>
+        <li><a href="why-us.html" class="text-[#ad9476] font-bold">Why Us</a></li>
+        <li><a href="contact.html" class="hover:text-[#6dd5ed]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container mx-auto px-4 py-16">
+    <h1 class="text-4xl font-extrabold mb-8 brand-gradient">Why Choose Us</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-lg shadow p-6 text-center">
+        <div class="text-4xl mb-4">💡</div>
+        <h2 class="text-xl font-bold mb-2">Expert Guidance</h2>
+        <p>Years of experience, clear advice and your best interests always first.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6 text-center">
+        <div class="text-4xl mb-4">🤝</div>
+        <h2 class="text-xl font-bold mb-2">Personal Service</h2>
+        <p>We listen, understand, and tailor solutions—no one-size-fits-all advice.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6 text-center">
+        <div class="text-4xl mb-4">🚀</div>
+        <h2 class="text-xl font-bold mb-2">Fast Results</h2>
+        <p>From pre-approval to settlement, we make the process smooth and quick.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-white text-center py-8 shadow-inner">
+    <div class="container mx-auto px-4 text-[#888]">© 2025 RAMA ADVISORY. All rights reserved.</div>
+  </footer>
+</body>
+</html>
