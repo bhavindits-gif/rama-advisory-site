@@ -1,51 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rama Advisory - Mortgage Broker</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAMA ADVISORY - Mortgage & Loan Solutions</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500;600&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .brand-logo {
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: .15em;
+    }
+    .hero-bg {
+      background: linear-gradient(110deg, #f0e9e0 65%, #b3e0fc 100%);
+    }
+    .brand-gradient {
+      background: linear-gradient(90deg, #a68b6d 0%, #67c6e3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .page-section { display: none; opacity: 0; transition: opacity 0.5s; }
+    .page-section.active { display: block; opacity: 1; }
+  </style>
 </head>
-<body>
-    <header>
-        <h1>Rama Advisory</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#about">About Us</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <section id="home" class="hero">
-        <h2>Your Trusted Mortgage Broker in Brisbane & Australia</h2>
-        <p>Rama Advisory offers expert mortgage solutions to help you achieve your property dreams, locally in Brisbane and across Australia.</p>
+<body class="bg-[#f7fafd] text-[#262626]">
+
+  <!-- Header & Navigation -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-5 flex items-center justify-between">
+      <span class="brand-logo text-3xl md:text-4xl font-extrabold brand-gradient select-none">
+        RAMA ADVISORY
+      </span>
+      <ul class="flex space-x-4 md:space-x-8 text-lg font-semibold">
+        <li><a href="#" data-page="home" class="hover:text-[#67c6e3] transition-colors">Home</a></li>
+        <li><a href="#" data-page="about" class="hover:text-[#67c6e3] transition-colors">About</a></li>
+        <li><a href="#" data-page="services" class="hover:text-[#67c6e3] transition-colors">Services</a></li>
+        <li><a href="#" data-page="contact" class="hover:text-[#67c6e3] transition-colors">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="page-section active hero-bg min-h-[75vh] flex items-center justify-center text-center px-4">
+      <div class="max-w-2xl mx-auto py-16">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-6 brand-gradient">Your Trusted Mortgage & Loan Partner</h1>
+        <p class="text-xl text-[#4a4a4a] mb-8">Helping you achieve your dream home & financial goals, with personalised service and expert advice—since 2020.</p>
+        <a href="#" data-page="contact" class="inline-block bg-[#a68b6d] hover:bg-[#8b6c4a] text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-all duration-300">Book a Free Consultation</a>
+      </div>
     </section>
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Home Loan Advice & Application Support</li>
-            <li>Refinancing Solutions</li>
-            <li>Investment Property Loans</li>
-            <li>First Home Buyer Guidance</li>
-            <li>Debt Consolidation</li>
-            <li>And more—tailored to your needs</li>
-        </ul>
+
+    <!-- About Section -->
+    <section id="about" class="page-section py-16 bg-[#e9f6fb]">
+      <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
+        <div class="w-full md:w-1/2 mb-8 md:mb-0">
+          <img src="https://placehold.co/480x400/67c6e3/FFF?text=Rama+Advisory+Team" alt="Rama Advisory Team" class="rounded-lg shadow-xl w-full"/>
+        </div>
+        <div class="w-full md:w-1/2">
+          <h2 class="text-3xl font-bold mb-4 brand-gradient">About Rama Advisory</h2>
+          <p class="text-lg mb-3">
+            Established in 2020, <span class="font-bold">Rama Advisory</span> is passionate about helping Australians find the right loan solution—whether you’re buying your first home, investing, or refinancing.
+          </p>
+          <p class="text-lg mb-3">
+            We pride ourselves on our personal approach, guiding every client with care, integrity, and tailored advice. Your goals are our passion!
+          </p>
+          <p class="text-lg">Let us help you turn your dreams into reality, every step of the way.</p>
+        </div>
+      </div>
     </section>
-    <section id="about">
-        <h2>About Rama Advisory</h2>
-        <p>
-            Led by Narendra Ganatra, Rama Advisory is dedicated to helping individuals and families secure their financial future through the right mortgage solutions. With deep local knowledge of the Brisbane market and access to nationwide lending options, we provide personalized, professional service every step of the way.
-        </p>
+
+    <!-- Services Section -->
+    <section id="services" class="page-section py-16 bg-[#f0e9e0]">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 brand-gradient">Our Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-7 rounded-xl shadow-lg text-center hover:shadow-2xl transition">
+            <h3 class="text-2xl font-bold mb-2 text-[#a68b6d]">First Home Loan</h3>
+            <p>Expert support to help you buy your first home with confidence and clarity.</p>
+          </div>
+          <div class="bg-white p-7 rounded-xl shadow-lg text-center hover:shadow-2xl transition">
+            <h3 class="text-2xl font-bold mb-2 text-[#a68b6d]">Investment Loan</h3>
+            <p>Grow your property portfolio with strategic advice and competitive rates.</p>
+          </div>
+          <div class="bg-white p-7 rounded-xl shadow-lg text-center hover:shadow-2xl transition">
+            <h3 class="text-2xl font-bold mb-2 text-[#a68b6d]">Refinance</h3>
+            <p>Save money and simplify your finances by refinancing your current loan.</p>
+          </div>
+          <div class="bg-white p-7 rounded-xl shadow-lg text-center hover:shadow-2xl transition">
+            <h3 class="text-2xl font-bold mb-2 text-[#a68b6d]">Construction Loan</h3>
+            <p>Build your dream home with flexible, tailored construction finance options.</p>
+          </div>
+          <div class="bg-white p-7 rounded-xl shadow-lg text-center hover:shadow-2xl transition">
+            <h3 class="text-2xl font-bold mb-2 text-[#a68b6d]">Personal Loan</h3>
+            <p>Finance life’s important moments with fast, competitive personal loans.</p>
+          </div>
+          <div class="bg-white p-7 rounded-xl shadow-lg text-center hover:shadow-2xl transition">
+            <h3 class="text-2xl font-bold mb-2 text-[#a68b6d]">Car Loan</h3>
+            <p>Drive away sooner with easy, affordable car loan solutions.</p>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p><strong>Name:</strong> Narendra Ganatra</p>
-        <p><strong>Address:</strong> 1644 Logan Road, Mount Gravatt, Brisbane</p>
-        <p><strong>Email:</strong> Coming Soon</p>
-        <p>To get started, visit us or call us today (phone number coming soon).</p>
+
+    <!-- Testimonials Section (Optional) -->
+    <section id="testimonials" class="page-section py-16 bg-[#e9f6fb]">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 brand-gradient">What Our Clients Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow text-center">
+            <p class="italic text-[#444] mb-4">"Rama Advisory made buying our first home stress-free. So grateful for their support!"</p>
+            <span class="font-semibold text-[#67c6e3]">— S. Sharma</span>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow text-center">
+            <p class="italic text-[#444] mb-4">"Professional, honest, and always available. Highly recommend to anyone seeking a loan."</p>
+            <span class="font-semibold text-[#a68b6d]">— J. Patel</span>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow text-center">
+            <p class="italic text-[#444] mb-4">"They found me a great refinance deal and explained everything clearly. Thank you!"</p>
+            <span class="font-semibold text-[#67c6e3]">— L. Williams</span>
+          </div>
+        </div>
+      </div>
     </section>
-    <footer>
-        <p>&copy; 2025 Rama Advisory. All rights reserved.</p>
-    </footer>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-section py-16 bg-[#f0e9e0]">
+      <div class="container mx-auto px-4">
+        <div class="max-w-xl mx-auto bg-white rounded-xl shadow-lg p-8">
+          <h2 class="text-3xl font-bold mb-6 brand-gradient text-center">Contact Us</h2>
+          <p class="text-center mb-8 text-[#444]">
+            Ready to start your journey? Fill out the form below and our team will be in touch.<br>
+            Or visit us at:<br>
+            <span class="font-semibold text-[#a68b6d]">1644 Logan Road, Mount Gravatt, Brisbane</span>
+          </p>
+          <form class="space-y-6" name="contact-form" netlify>
+            <input type="text" name="name" placeholder="Your Name" required class="w-full p-4 border border-[#d4d4d4] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#67c6e3]">
+            <input type="email" name="email" placeholder="Your Email" required class="w-full p-4 border border-[#d4d4d4] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#67c6e3]">
+            <input type="tel" name="phone" placeholder="Phone Number" class="w-full p-4 border border-[#d4d4d4] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#67c6e3]">
+            <textarea name="message" rows="4" placeholder="Your Message" class="w-full p-4 border border-[#d4d4d4] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#67c6e3]"></textarea>
+            <button type="submit" class="w-full bg-[#67c6e3] hover:bg-[#a68b6d] text-white font-semibold py-4 rounded-lg shadow-lg transition-colors duration-300">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-6 mt-8 shadow-inner">
+    <div class="container mx-auto px-4 text-[#888] text-sm">
+      &copy; 2025 <span class="brand-logo brand-gradient font-bold">RAMA ADVISORY</span>. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // Navigation for single-page scrolling effect
+    document.addEventListener('DOMContentLoaded', () => {
+      const navLinks = document.querySelectorAll('a[data-page]');
+      const sections = document.querySelectorAll('.page-section');
+      function showPage(pageId) {
+        sections.forEach(section => section.classList.remove('active'));
+        setTimeout(() => {
+          const activeSection = document.getElementById(pageId);
+          if (activeSection) activeSection.classList.add('active');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 100);
+      }
+      navLinks.forEach(link => {
+        link.addEventListener('click', e => {
+          e.preventDefault();
+          showPage(link.getAttribute('data-page'));
+        });
+      });
+      // Show home on load
+      showPage('home');
+    });
+  </script>
 </body>
 </html>
