@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>About Us | RAMA ADVISORY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; color: #1a1a1a; }
+    .brand-logo { font-family: 'Montserrat', sans-serif; letter-spacing: .14em; }
+    .brand-gradient {
+      background: linear-gradient(90deg, #ad9476 0%, #6dd5ed 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-[#f8fafc]">
+  <header class="bg-white shadow sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-5 flex items-center justify-between">
+      <a href="index.html" class="brand-logo text-2xl md:text-3xl font-extrabold brand-gradient">RAMA ADVISORY</a>
+      <ul class="flex space-x-6 text-base md:text-lg font-medium">
+        <li><a href="about.html" class="text-[#ad9476] font-bold">About</a></li>
+        <li><a href="services.html" class="hover:text-[#6dd5ed]">Services</a></li>
+        <li><a href="why-us.html" class="hover:text-[#6dd5ed]">Why Us</a></li>
+        <li><a href="contact.html" class="hover:text-[#6dd5ed]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container mx-auto px-4 py-16">
+    <h1 class="text-4xl font-extrabold mb-8 brand-gradient">About Us</h1>
+    <div class="prose max-w-2xl">
+      <p><strong>RAMA ADVISORY</strong> has been proudly serving the Brisbane community since 2020. Our mission is to simplify the lending process and empower our clients with transparent, honest advice at every step.</p>
+      <p>We value trust, integrity, and personalised service. Whether you’re a first home buyer, investor, or looking to refinance, our dedicated team is here to guide you with care and expertise.</p>
+      <p>Let us help you achieve your financial goals and make your dreams a reality!</p>
+    </div>
+  </main>
+  <footer class="bg-white text-center py-8 shadow-inner">
+    <div class="container mx-auto px-4 text-[#888]">© 2025 RAMA ADVISORY. All rights reserved.</div>
+  </footer>
+</body>
+</html>
