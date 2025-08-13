@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terms & Conditions | RAMA ADVISORY</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.tailwindcss.com/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-3xl mx-auto py-12 px-4">
+    <h1 class="text-3xl font-bold mb-6 text-blue-700">Terms and Conditions of Use</h1>
+    <p class="mb-4">Welcome to RAMA ADVISORY’s website. By accessing and using this website, you agree to the following terms and conditions:</p>
+    
+    <h2 class="text-xl font-semibold mt-8 mb-2">1. General Information</h2>
+    <p class="mb-4">The information provided on this website is general in nature and does not constitute financial or legal advice. You should consult a qualified adviser for financial decisions.</p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">2. Accuracy of Information</h2>
+    <p class="mb-4">While we strive to provide accurate and up-to-date information, we do not guarantee the accuracy, reliability, or completeness of any content on this website.</p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">3. No Client Relationship</h2>
+    <p class="mb-4">Use of this website does not create a client-adviser relationship between you and RAMA ADVISORY unless you formally engage our services.</p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">4. Intellectual Property</h2>
+    <p class="mb-4">All content, logos, and images on this website are the property of RAMA ADVISORY or their respective owners and may not be reproduced without permission.</p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">5. Links to Third Party Sites</h2>
+    <p class="mb-4">Our website may contain links to external sites. We are not responsible for the content or privacy practices of those sites.</p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">6. Limitation of Liability</h2>
+    <p class="mb-4">To the extent permitted by law, RAMA ADVISORY disclaims any liability for losses or damages arising from the use of this website or reliance on its information.</p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">7. Changes to Terms</h2>
+    <p class="mb-4">We reserve the right to amend these terms and conditions at any time. Changes will be effective immediately upon posting to this site.</p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">8. Governing Law</h2>
+    <p class="mb-4">These terms are governed by the laws of Queensland, Australia.</p>
+
+    <h2 class="text-xl font-semibold mt-8 mb-2">Contact Us</h2>
+    <p class="mb-4">If you have any questions about these terms, please contact us at info@ramaadvisory.com.</p>
+
+    <p class="mt-8 text-sm text-gray-500">Effective Date: 13 August 2025</p>
+  </div>
+</body>
+</html>
