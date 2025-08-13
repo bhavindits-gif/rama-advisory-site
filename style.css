@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f9fa;
+    color: #222;
+}
+
+header {
+    background: #144c74;
+    color: #fff;
+    padding: 1.5em 0 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 0.5em 0;
+    font-size: 2.5em;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: #e3edf7;
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    max-width: 900px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(20,76,116,0.05);
+}
+
+section#services ul {
+    list-style: disc inside;
+    margin: 1em 0;
+}
+
+footer {
+    background: #144c74;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    section {
+        padding: 1em;
+    }
+}
