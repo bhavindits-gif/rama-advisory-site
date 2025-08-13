@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Our Services | RAMA ADVISORY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; color: #1a1a1a; }
+    .brand-logo { font-family: 'Montserrat', sans-serif; letter-spacing: .14em; }
+    .brand-gradient {
+      background: linear-gradient(90deg, #ad9476 0%, #6dd5ed 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-[#f8fafc]">
+  <header class="bg-white shadow sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-5 flex items-center justify-between">
+      <a href="index.html" class="brand-logo text-2xl md:text-3xl font-extrabold brand-gradient">RAMA ADVISORY</a>
+      <ul class="flex space-x-6 text-base md:text-lg font-medium">
+        <li><a href="about.html" class="hover:text-[#6dd5ed]">About</a></li>
+        <li><a href="services.html" class="text-[#ad9476] font-bold">Services</a></li>
+        <li><a href="why-us.html" class="hover:text-[#6dd5ed]">Why Us</a></li>
+        <li><a href="contact.html" class="hover:text-[#6dd5ed]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container mx-auto px-4 py-16">
+    <h1 class="text-4xl font-extrabold mb-8 brand-gradient">Our Services</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-2xl font-bold mb-2">🏠 First Home Loans</h2>
+        <p>Guiding first home buyers every step, from application to settlement.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-2xl font-bold mb-2">💼 Investment Loans</h2>
+        <p>Smart strategies and access to great rates for property investors.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-2xl font-bold mb-2">🔄 Refinance</h2>
+        <p>Save money and stress—let us find you a better deal on your current loan.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-2xl font-bold mb-2">🏗️ Construction Loans</h2>
+        <p>Flexible finance options for building your dream home.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-2xl font-bold mb-2">🚗 Car Loans</h2>
+        <p>Get on the road with fast and affordable car financing.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-2xl font-bold mb-2">💳 Personal Loans</h2>
+        <p>Finance life’s important moments with quick, flexible personal loans.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-white text-center py-8 shadow-inner">
+    <div class="container mx-auto px-4 text-[#888]">© 2025 RAMA ADVISORY. All rights reserved.</div>
+  </footer>
+</body>
+</html>
