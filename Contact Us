@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Contact Us | RAMA ADVISORY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; color: #1a1a1a; }
+    .brand-logo { font-family: 'Montserrat', sans-serif; letter-spacing: .14em; }
+    .brand-gradient {
+      background: linear-gradient(90deg, #ad9476 0%, #6dd5ed 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-[#f8fafc]">
+  <header class="bg-white shadow sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-5 flex items-center justify-between">
+      <a href="index.html" class="brand-logo text-2xl md:text-3xl font-extrabold brand-gradient">RAMA ADVISORY</a>
+      <ul class="flex space-x-6 text-base md:text-lg font-medium">
+        <li><a href="about.html" class="hover:text-[#6dd5ed]">About</a></li>
+        <li><a href="services.html" class="hover:text-[#6dd5ed]">Services</a></li>
+        <li><a href="why-us.html" class="hover:text-[#6dd5ed]">Why Us</a></li>
+        <li><a href="contact.html" class="text-[#ad9476] font-bold">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container mx-auto px-4 py-16">
+    <h1 class="text-4xl font-extrabold mb-8 brand-gradient">Contact Us</h1>
+    <div class="max-w-xl mx-auto bg-white rounded-xl shadow-lg p-8">
+      <p class="mb-6 text-lg">Ready to take the next step or have questions? Fill out the form below and our team will be in touch soon.</p>
+      <form class="space-y-6" name="contact-form" netlify>
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-4 border border-[#d4d4d4] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6dd5ed]">
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-4 border border-[#d4d4d4] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6dd5ed]">
+        <input type="tel" name="phone" placeholder="Phone Number" class="w-full p-4 border border-[#d4d4d4] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6dd5ed]">
+        <textarea name="message" rows="4" placeholder="Your Message" class="w-full p-4 border border-[#d4d4d4] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6dd5ed]"></textarea>
+        <button type="submit" class="w-full bg-[#6dd5ed] hover:bg-[#ad9476] text-white font-semibold py-4 rounded-lg shadow-lg transition-colors duration-300">Send Message</button>
+      </form>
+      <div class="mt-8 text-center text-sm text-gray-500">
+        <p><strong>Email:</strong> info@ramaadvisory.com</p>
+        <p><strong>Address:</strong> 1644 Logan Road, Mount Gravatt, Brisbane QLD 4122</p>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-white text-center py-8 shadow-inner">
+    <div class="container mx-auto px-4 text-[#888]">© 2025 RAMA ADVISORY. All rights reserved.</div>
+  </footer>
+</body>
+</html>
